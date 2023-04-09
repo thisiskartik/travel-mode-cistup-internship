@@ -1,6 +1,6 @@
-export default function RadioButton({ id, value, name, label, className }) {
+export default function RadioButton({ id, value, name, label, className, align }) {
 	return (
-		<div className="flex flex-row items-center gap-2">
+		<div className={`flex flex-row justify-${align ? align : "right"} items-center gap-2`}>
 			<input
 				className={`accent-primary scale-150 ${className}`}
 				type="radio"

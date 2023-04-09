@@ -12,10 +12,7 @@ import {
 	faMobile,
 } from "@fortawesome/free-solid-svg-icons";
 
-import {
-	TRAVEL_MODE_VALUES,
-	TRAVEL_DISTANCE_VALUES,
-} from "../../forms/TravelProfileForm/TravelProfileValues";
+import { TRAVEL_MODE_VALUES } from "../../forms/TravelProfileForm/TravelProfileValues";
 
 export default function ModeChoiceRow2({
 	mode1trans,
